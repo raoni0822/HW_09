@@ -18,6 +18,10 @@ $(function () {
         }
     })
 
+    // $('.header nav ul>li>a').hover(function () {
+    //     $('.header nav ul>li .nav_detail').addClass('on');
+    // })
+
     $('.totop').on('click', function () {
         $('html,body').animate({ scrollTop: 0 }, 800)
     })
